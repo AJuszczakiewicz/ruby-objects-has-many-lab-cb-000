@@ -1,6 +1,7 @@
 class Author
   attr_accessor :name, :posts
-
+  @@posts = Array.new
+  
   def initialize(name)
     @name = name
     @posts = Array.new
